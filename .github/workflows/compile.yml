@@ -1,4 +1,4 @@
-name: Compile project
+name: Run
 
 on: [push, pull_request]
 
