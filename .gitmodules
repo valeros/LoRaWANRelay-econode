@@ -1,0 +1,3 @@
+[submodule "LoRaWanRelay"]
+	path = LoRaWanRelay
+	url = https://github.com/LoRaWanRelay/LoRaWanRelay.git
