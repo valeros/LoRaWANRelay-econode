@@ -2,16 +2,9 @@
   "build": {
     "cpu": "cortex-m0plus",
     "core": "stm32l0",
-    "extra_flags": "-DARDUINO_STM32L0_GRASSHOPPER",
     "f_cpu": "32000000L",
-    "hwids": [
-      [
-        "0x0483",
-        "0xDF11"
-      ]
-    ],
     "mcu": "stm32l082czy6",
-    "usb_product": "SmartTrap-L082"
+    "usb_product": "Econode-LoRa"
   },
   "debug": {
     "jlink_device": "STM32L082CZ",
@@ -19,10 +12,9 @@
     "svd_path": "STM32L08x.svd"
   },
   "frameworks": [
-    "arduino",
     "stm32cube"
   ],
-  "name": "SmartTrap",
+  "name": "Econode-LoRa gen5",
   "upload": {
     "maximum_ram_size": 20480,
     "maximum_size": 196608,
